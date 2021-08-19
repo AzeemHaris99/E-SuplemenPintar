@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "Authentication"
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('C:\\Users\\Azeem\\AndroidStudioProjects\\Authentication\\unityLibrary')

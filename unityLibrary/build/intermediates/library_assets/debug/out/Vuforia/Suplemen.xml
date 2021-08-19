@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="appeton_GainWeight" size="50.000000 50.000000" />
+    <ImageTarget name="Appeton_MultivitaminLysineTablet" size="50.000000 50.000000" />
+    <ImageTarget name="shaklee_BComplex" size="50.000000 50.000000" />
+    <ImageTarget name="shaklee_AlfalfaComplex330tablet" size="50.000000 45.000000" />
+    <ImageTarget name="Nn_Spirulina" size="50.000000 50.000000" />
+    <ImageTarget name="appeton_infantdrops" size="50.000000 50.000000" />
+    <ImageTarget name="blackmores_bufferedC" size="50.000000 50.000000" />
+    <ImageTarget name="blackmores_multivitamins" size="50.000000 50.000000" />
+    <ImageTarget name="centrum_energy" size="50.000000 50.000000" />
+    <ImageTarget name="DXN_reishigano" size="50.000000 87.279152" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:background="@drawable/gradient_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Kemas Kini Borang Masalah Kesihatan"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/asap"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Nama"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/asap"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#CC0000"/>
+
+        <EditText
+            android:id="@+id/uemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Emel"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/asap"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#CC0000"/>
+
+        <EditText
+            android:id="@+id/uhealth"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Masalah kesihatan anda"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/asap"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#CC0000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="*Hanya masalah kesihatan yang ringan sahaja. Jika masalah kesihatan anda serius, sila rujuk terus kepada doktor"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:fontFamily="@font/asap"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/usubmit"
+            android:layout_width="145dp"
+            android:layout_height="45dp"
+            android:elevation="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="1000dp"
+            android:layout_gravity="center"
+            android:text="Kemas Kini"
+            android:fontFamily="@font/asap"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_logoutbutton"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
